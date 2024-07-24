@@ -11,7 +11,6 @@ import json
 from cart.cart import Cart
 
 
-
 def search(request):
     if request.method == "POST" :
         searched = request.POST['searched']
